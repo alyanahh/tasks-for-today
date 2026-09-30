@@ -14,10 +14,10 @@
     <a href="/" class="logo">TASKS FOR TODAY</a>
 
     <div class="nav-links">
-        <a href="/">Today</a>
-        <a href="/tasks">All Tasks</a>
-        <a href="/profile">Profile</a>
-        <a href="/about">About</a>
+        <a href="<?= site_url('/') ?>">Today</a>
+        <a href="<?= site_url('tasks') ?>">All Tasks</a>
+        <a href="<?= site_url('profile') ?>">Profile</a>
+        <a href="<?= site_url('about') ?>">About</a>
     </div>
 </nav>
 
